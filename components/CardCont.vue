@@ -42,4 +42,23 @@ const { users } = defineProps(['users']);
 .red-b {
   color: #8ccc84;
 }
+
+@media screen and (max-width: 600px) {
+  .card-container {
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+  }
+  .card {
+    width: 100%;
+    height: 240px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: #5c469c;
+  }
+}
 </style>
